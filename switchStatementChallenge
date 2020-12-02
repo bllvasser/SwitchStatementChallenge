@@ -1,0 +1,27 @@
+package academy.learnprogrmming;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+       char myChar = '7';
+       switch (myChar) {
+           case 'a' :
+               System.out.println(myChar + " was found");
+               break;
+           case 'b' :
+               System.out.println(myChar + " was found");
+               break;
+           case 'c' : case 'd': case 'e' :
+               System.out.println(myChar + " was found");
+               break;
+           default:
+               System.out.println("none of these were found");
+       }
+
+        }
+        }
+        "C:\Program Files\Java\jdk-15.0.1\bin\java.exe" "-javaagent:C:\Users\nadiy\OneDrive\Desktop\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar=49991:C:\Users\nadiy\OneDrive\Desktop\IntelliJ IDEA Community Edition 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\nadiy\IdeaProjects\AreaCalculatorExercise\out\production\AreaCalculatorExercise academy.learnprogrmming.Main
+none of these were found
+
+Process finished with exit code 0
